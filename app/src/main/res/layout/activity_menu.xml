@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+<ImageView
+    android:id="@+id/logoheader"
+    android:layout_width="130dp"
+    android:layout_height="50dp"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/myplant"
+    />
+
+    <ImageView
+        android:id="@+id/logo12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/logo12"
+        android:layout_marginLeft="332dp"
+        />
+
+    <ImageView
+        android:id="@+id/logo11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/logo11"
+        />
+
+    <ImageView
+        android:layout_width="383dp"
+        android:layout_height="100dp"
+        android:layout_marginVertical="10dp"
+        android:src="@drawable/searchbar"
+        />
+
+    <TextView
+        android:layout_width="200px"
+        android:layout_height="30dp"
+        android:text="Cari Disini"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:textColor="@color/inputext"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="45dp"
+        />
+
+    <ImageView
+        android:layout_width="480dp"
+        android:layout_height="10dp"
+        android:src="@drawable/garis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="84dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginVertical="232dp"
+        />
+
+    <ImageView
+        android:layout_width="2000dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="56dp"
+        android:src="@drawable/baner"
+        />
+
+    <ImageView
+        android:layout_width="480dp"
+        android:layout_height="10dp"
+        android:src="@drawable/garis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="220dp"
+        />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:src="@drawable/garis2"
+        android:layout_marginVertical="260dp"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="298dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="184dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/garis4"
+        />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:src="@drawable/garis2"
+        android:layout_marginVertical="440dp"
+        />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="134dp"
+        android:src="@drawable/tanaman1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anggrek Kampung"
+        android:layout_marginVertical="375dp"
+        android:layout_marginLeft="35dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp. 200.000"
+        android:layout_marginVertical="390dp"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/birutua"
+        android:textStyle="bold"
+        android:textSize="8pt"
+        />
+
+    <Button
+        android:layout_width="160px"
+        android:layout_height="45px"
+        android:textColorLink="@color/ijomuda1"
+        android:layout_marginLeft="55dp"
+        android:layout_marginVertical="418dp"
+        android:textSize="8dp"
+        android:text="Beli"
+        android:textColor="@color/white"
+        android:background="@color/ijomuda1"
+        />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginBottom="139dp"
+        android:src="@drawable/tanaman2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anggrek Kampung"
+        android:layout_marginVertical="375dp"
+        android:layout_marginLeft="236dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp. 200.000"
+        android:layout_marginVertical="390dp"
+        android:layout_marginLeft="245dp"
+        android:textColor="@color/birutua"
+        android:textStyle="bold"
+        android:textSize="8pt"
+        />
+
+    <Button
+        android:layout_width="160px"
+        android:layout_height="45px"
+        android:textColorLink="@color/ijomuda1"
+        android:layout_marginLeft="260dp"
+        android:layout_marginVertical="418dp"
+        android:textSize="8dp"
+        android:text="Beli"
+        android:textColor="@color/white"
+        android:background="@color/ijomuda1"
+        />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="515dp"
+        android:text="Logout" />
+
+</RelativeLayout>

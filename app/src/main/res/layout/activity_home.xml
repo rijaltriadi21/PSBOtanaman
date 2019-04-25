@@ -7,7 +7,7 @@
     tools:context=".HomeActivity">
 
     <Button
-        android:id="@+id/logout_button"
+        android:id="@+id/logout_buttons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
