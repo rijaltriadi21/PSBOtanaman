@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TiketSaya</string>
+    <string name="app_name">MyPlant</string>
     <string name="slogan">Wisata Jadi Lebih Asyik!</string>
     <string name="signin">SIGN IN</string>
     <string name="username_label">Username</string>

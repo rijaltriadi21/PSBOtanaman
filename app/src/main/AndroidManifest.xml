@@ -23,7 +23,7 @@
         <activity android:name=".RegisterOneAct" />
         <activity android:name=".SignInAct" />
         <activity android:name=".GetStartedAct" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashAct">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
