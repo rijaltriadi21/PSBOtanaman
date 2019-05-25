@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.myplant">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.tokoonline">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -8,28 +11,37 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".ItemDetail"></activity>
-        <activity android:name=".EditProfileAct" />
-        <activity android:name=".ItemCheckoutAct" />
-        <activity android:name=".ItemAdapter" />
-        <activity android:name=".SuccessBuyItem" />
-        <activity android:name=".MyListDetailAct" />
-        <activity android:name=".MyListAct" />
-        <activity android:name=".MyProfileAct" />
-        <activity android:name=".HomeAct" />
-        <activity android:name=".SuccessRegisterAct" />
-        <activity android:name=".RegisterTwoAct" />
-        <activity android:name=".RegisterOneAct" />
-        <activity android:name=".SignInAct" />
-        <activity android:name=".GetStartedAct" />
-        <activity android:name=".SplashAct">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activity.SignupActivity"></activity>
+        <activity android:name=".activity.ResetPasswordActivity" />
+        <activity android:name=".activity.Splashscreen" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.Notif" />
+        <activity android:name=".activity.Trans" />
+        <activity android:name=".activity.Profile" />
+        <activity android:name=".activity.Cart" />
+        <activity android:name=".activity.Upload" />
+        <activity android:name=".activity.Login" />
+        <activity android:name=".activity.Signup" />
+        <activity
+            android:name=".activity.Store"
+            android:label="@string/title_activity_store_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.Detail" />
+        <activity android:name=".activity.Status" />
+        <activity
+            android:name=".activity.Main"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

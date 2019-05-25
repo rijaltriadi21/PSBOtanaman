@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "1037287414338",
-    "firebase_url": "https://tanamanonline-e8536.firebaseio.com",
-    "project_id": "tanamanonline-e8536",
-    "storage_bucket": "tanamanonline-e8536.appspot.com"
+    "project_number": "880832555860",
+    "firebase_url": "https://loginregistertanaman.firebaseio.com",
+    "project_id": "loginregistertanaman",
+    "storage_bucket": "loginregistertanaman.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1037287414338:android:7aa46d6654109f54",
+        "mobilesdk_app_id": "1:880832555860:android:7a8702cb83c5f9ba",
         "android_client_info": {
-          "package_name": "app.myplant"
+          "package_name": "app.tokoonline"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1037287414338-ihql90obe3p9e48mput6g6r575sfnir5.apps.googleusercontent.com",
+          "client_id": "880832555860-inp28oe5pud01ouvna3vci0ond4k47ls.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "app.myplant",
-            "certificate_hash": "2b10f62703098cc0b0227b9a5efef35cff2fb638"
+            "package_name": "app.tokoonline",
+            "certificate_hash": "3b9b5422ea9549cf33a7a47cad54076cedfc1cd1"
           }
         },
         {
-          "client_id": "1037287414338-ie8pt115li5k0oegdnmlg3v8o3baeb0h.apps.googleusercontent.com",
+          "client_id": "880832555860-e0l29lbqt2f0do4m5dvq2n4ugklgs3oo.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC2T0pPdjT0xZPOJxxwqytAAeDZUVgGtpQ"
+          "current_key": "AIzaSyBS7kORykVlGS29ccipOaEcZPlYh-dpTk4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1037287414338-ie8pt115li5k0oegdnmlg3v8o3baeb0h.apps.googleusercontent.com",
+              "client_id": "880832555860-e0l29lbqt2f0do4m5dvq2n4ugklgs3oo.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
