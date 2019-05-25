@@ -1,45 +1,52 @@
 {
   "project_info": {
-    "project_number": "880832555860",
-    "firebase_url": "https://loginregistertanaman.firebaseio.com",
-    "project_id": "loginregistertanaman",
-    "storage_bucket": "loginregistertanaman.appspot.com"
+    "project_number": "749339893013",
+    "firebase_url": "https://ecomerce-f88d5.firebaseio.com",
+    "project_id": "ecomerce-f88d5",
+    "storage_bucket": "ecomerce-f88d5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:880832555860:android:7a8702cb83c5f9ba",
+        "mobilesdk_app_id": "1:749339893013:android:38cb8ddd58ea764d",
         "android_client_info": {
-          "package_name": "app.tokoonline"
+          "package_name": "com.example.user.ecomerce"
         }
       },
       "oauth_client": [
         {
-          "client_id": "880832555860-inp28oe5pud01ouvna3vci0ond4k47ls.apps.googleusercontent.com",
+          "client_id": "749339893013-s9sckniold0or8ql3qqsvkr2hp2hessq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "app.tokoonline",
+            "package_name": "com.example.user.ecomerce",
             "certificate_hash": "3b9b5422ea9549cf33a7a47cad54076cedfc1cd1"
           }
         },
         {
-          "client_id": "880832555860-e0l29lbqt2f0do4m5dvq2n4ugklgs3oo.apps.googleusercontent.com",
+          "client_id": "749339893013-e5eit9dvnior9snem3jpmj7k39upmui4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBS7kORykVlGS29ccipOaEcZPlYh-dpTk4"
+          "current_key": "AIzaSyA2Zg8EKUNtyNJf447Kc-4-zvRtdzFbbUM"
         }
       ],
       "services": {
+        "analytics_service": {
+          "status": 1
+        },
         "appinvite_service": {
+          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "880832555860-e0l29lbqt2f0do4m5dvq2n4ugklgs3oo.apps.googleusercontent.com",
+              "client_id": "749339893013-e5eit9dvnior9snem3jpmj7k39upmui4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
+        },
+        "ads_service": {
+          "status": 2
         }
       }
     }
